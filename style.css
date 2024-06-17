@@ -1,13 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 *{
 padding: 0%;
 margin: 0% ;
 box-sizing: border-box;
+color: white;
+
+}
+
+:root{
+--corBotoesH2Texto:  #ffae00;
+--arredodamentoBordas: 10px;
+--minhaFonte: "Kaushan Script", cursive;
 
 }
 body{
 background-image: url(imagens/bg.png);
  /* background-repeat: no-repeat; 
  background-size: cover;*/
+ text-align: center;
 
 
 
@@ -22,5 +33,59 @@ color: white;
 margin: 0px 10px;
 text-decoration: none;
 padding: 15px;
+font-size: 20px;
+font-weight: bold;
+font-family: var(--minhaFonte);
 
 }
+.logo{
+    width: 250px;
+}
+h1, h2, h3, p, button{
+    margin: 10px;
+}
+
+h1{
+    text-transform: lowercase;
+}
+
+h2{
+    color: var();
+    text-align: center;
+}
+.imgProduto, .boxTexto{
+width: 400px;
+
+}
+
+.boxProduto{
+    background-color:  rgba(37, 37, 37, 0.8);
+width: 850px;
+margin: auto;
+border-radius: var(--arredodamentoBordas)
+
+}
+
+.boxImagem, .boxTexto{
+    display: inline-block;
+vertical-align: middle;
+
+
+}
+.boxTexto{
+text-align: start;
+
+}
+
+h1, h2, h3, p{
+    margin: 10px 0px;
+}
+button{
+    background-color: var(--corBotoesH2Texto);
+    padding: 15px;
+    border: none;
+    border-radius: var(--arredodamentoBordas);
+    width: 150px;
+    cursor: pointer;
+        }
+    
